@@ -1,0 +1,38 @@
+# Core environment for Temporal_Poverty_Submission — tabular modelling, GEE extraction, dashboard, spatial engineering.
+# Install into the project-local virtual environment at:
+# Temporal_Poverty_Submission/.venv
+
+pandas==2.3.3
+numpy==1.26.4
+matplotlib==3.10.8
+seaborn==0.13.2
+scikit-learn==1.8.0
+scipy==1.17.0
+jupyter==1.1.1
+notebook==7.5.2
+ipykernel==7.1.0
+nbformat==5.10.4
+nbconvert==7.16.6
+nbclient==0.10.2
+dash==4.1.0
+dash-bootstrap-components==2.0.4
+plotly==6.6.0
+python-docx==1.2.0
+# Windows-only final-render QA: calls Microsoft Word COM API to produce submission-quality PDF.
+# Requires Microsoft Word to be installed. NOT a model/notebook reproducibility dependency.
+# Used only for local final visual review and PDF generation before submission.
+docx2pdf==0.1.8
+pypdf==6.5.0
+xlsxwriter==3.2.9
+Pillow==12.1.0
+PyYAML==6.0.3
+
+# --- Modeling, explainability, and geospatial dependencies ---
+xgboost==2.0.3
+shap==0.45.0
+geopandas==0.14.3
+fiona==1.9.6
+# Retained for optional Google Earth Engine extraction. This pin is yanked upstream
+# but installed successfully under Python 3.11 during audit; do not upgrade
+# without a separate extraction validation pass.
+earthengine-api==0.1.396

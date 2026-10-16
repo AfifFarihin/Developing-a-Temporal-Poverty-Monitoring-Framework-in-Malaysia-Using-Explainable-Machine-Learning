@@ -1,0 +1,22 @@
+feature,feature_group,mean_abs_shap_log_points,mean_signed_shap_log_points,mean_abs_rank,importance_share
+year,year/time,0.11596649,-0.00071811705,1,0.33388582
+pop_sum_grid,population,0.03405109,0.001792326,2,0.09803846
+wmean_frac_forest,land cover,0.03109999,-0.005236574,3,0.08954178
+wmean_frac_urban,urbanisation,0.02582808,0.002059496,4,0.07436311
+dist_bright_pop_share_thr1,nighttime lights,0.018006662,0.0022483792,5,0.05184402
+wmean_ntl_mean,nighttime lights,0.014352864,-0.0006691827,6,0.041324157
+wmean_ndvi_range,vegetation,0.010936596,0.0007834377,7,0.031488184
+wmean_ntl_highshare,nighttime lights,0.00959944,-0.0012878994,8,0.027638301
+wmean_evi_mean,vegetation,0.00916994,0.00024944442,9,0.026401702
+dist_ntl_mean_p10,nighttime lights,0.009072695,-0.0014851337,10,0.026121719
+dist_ntl_mean_cv,nighttime lights,0.009042523,0.0003733614,11,0.026034849
+dist_ntl_mean_std,nighttime lights,0.008367514,0.00026542463,12,0.024091393
+wmean_slope,topography,0.008207468,-0.0009327756,13,0.023630595
+dist_ntl_mean_mean,nighttime lights,0.0076325075,-0.0007584243,14,0.021975193
+wmean_frac_cropland,land cover,0.0071988194,-0.0012770613,15,0.020726535
+wmean_ndvi_peak,vegetation,0.0063629537,0.00039735125,16,0.018319948
+dist_ntl_mean_iqr,nighttime lights,0.006329768,1.4612487e-05,17,0.0182244
+wmean_elevation,topography,0.0058889966,-0.00036642438,18,0.01695535
+pop_sum_grid_log1p,population,0.0037144604,-0.00015592937,19,0.010694517
+dist_bright_cell_share_thr1,nighttime lights,0.0033496,0.0010209596,20,0.009644026
+dist_urban_cell_share_thr02,urbanisation,0.0031453464,0.00041285448,21,0.009055948
